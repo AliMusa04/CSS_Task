@@ -1,0 +1,50 @@
+.hello.world{
+    background-color: gold;
+}
+/* element.class */
+p.pClass{
+    color: aqua;
+}
+/* element,element */
+
+h1, h2{
+    color: chocolate;
+}
+/* element>element */
+span > p {
+    font-style: italic;
+}
+div + h1{
+    color: darkmagenta;
+}
+
+[title~=car]{
+    color: aqua;
+}
+[src$=".jpg"]{
+    width: 200px;
+}
+a:active{
+    background-color: chartreuse;
+}
+input:checked{
+   margin: 20px;
+    
+}
+input:disabled{
+    background-color:thistle;
+}
+p:first-child{
+    text-decoration: underline;
+    background-color: chartreuse;
+}
+#buttonHov:hover{
+    background-color: red;
+    color: aliceblue;
+}
+div p:last-child{
+    font-size: 30px;
+}
+div a:visited {
+    background-color: aqua;
+}
